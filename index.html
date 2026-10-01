@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Harper's Activities</title>
+  <meta name="theme-color" content="#6c5ce7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Activities">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="view"></main>
+
+  <nav class="tabs">
+    <a href="#today" data-tab="today"><span>☀️</span>Today</a>
+    <a href="#week" data-tab="week"><span>📅</span>Week</a>
+    <a href="#activities" data-tab="activities"><span>🎒</span>Activities</a>
+    <a href="#more" data-tab="more"><span>⚙️</span>More</a>
+  </nav>
+
+  <dialog id="editor"></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
